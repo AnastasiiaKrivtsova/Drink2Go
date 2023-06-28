@@ -1,0 +1,36 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  gap: 20px;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  color: $base-grey;
+
+  fill: $base-grey;
+
+  &:hover,
+  &:focus {
+    color: $base-primary;
+
+    fill: $base-primary;
+  }
+
+  &:active {
+    color: $primary-darker;
+
+    fill: $primary-darker;
+  }
+}

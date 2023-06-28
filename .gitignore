@@ -1,12 +1,5 @@
-.DS_Store
+node_modules
+*.min.*
+build
 .idea
-.vscode
-*.ai
-*.log
-*.pdf
-*.psd
-*.sublime*
-build/
-node_modules/
-npm-debug.*
-Thumbs.db
+.DS_Store

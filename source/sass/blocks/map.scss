@@ -1,0 +1,39 @@
+.map {
+  background-color: $lightest-grey;
+}
+
+.map__wrapper {
+  position: relative;
+
+  padding-top: 12px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+  }
+}
+
+.map__image {
+  position: absolute;
+  display: block;
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: $tablet-width;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+  }
+}
+
+.map__leaflet {
+  height: 420px;
+
+  @media (min-width: $tablet-width) {
+    height: 480px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 540px;
+  }
+}
