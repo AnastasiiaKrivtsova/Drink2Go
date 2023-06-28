@@ -1,0 +1,35 @@
+.field {
+  padding: 6px 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: inherit;
+
+  border: 2px solid $primary-lighter;
+  border-radius: 4px;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    appearance: none;
+  }
+
+  &::placeholder {
+    color: $base-grey;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $primary-darker;
+    outline: none;
+  }
+
+  &:disabled {
+    color: $base-grey;
+
+    background-color: $lightest-grey;
+    border-color: $light-grey;
+
+    pointer-events: none;
+  }
+}

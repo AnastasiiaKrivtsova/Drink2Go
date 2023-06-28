@@ -1,0 +1,10 @@
+.page__body {
+  min-height: 100%;
+  margin: 0;
+}
+
+.page__container {
+  flex-grow: 1;
+  min-width: 100%;
+  overflow: hidden;
+}
